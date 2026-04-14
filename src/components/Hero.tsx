@@ -100,8 +100,8 @@ const Hero = () => {
         </motion.div>
 
         {/* 3D Floating Elements Showcase */}
-        <div className="relative h-[600px] hidden lg:block perspective-1000">
-          <div className="absolute inset-0 flex items-center justify-center transform-style-3d">
+        <div className="relative h-[450px] sm:h-[500px] lg:h-[600px] w-full perspective-1000 mt-8 lg:mt-0">
+          <div className="absolute inset-0 flex items-center justify-center transform-style-3d scale-[0.7] sm:scale-90 lg:scale-100">
             
             {/* Floating Crypto Coins */}
             <motion.div
