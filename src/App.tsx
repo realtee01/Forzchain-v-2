@@ -5,7 +5,9 @@ import Hero from './components/Hero';
 import Ticker from './components/Ticker';
 import Features from './components/Features';
 import Ecosystems from './components/Ecosystems';
+import RadarSection from './components/RadarSection';
 import NewsFeed from './components/NewsFeed';
+import FooterMarquee from './components/FooterMarquee';
 import Footer from './components/Footer';
 import LoginModal from './components/LoginModal';
 
@@ -48,7 +50,9 @@ function App() {
         <Hero />
         <Features />
         <Ecosystems />
+        <RadarSection />
         <NewsFeed />
+        <FooterMarquee />
       </main>
       
       <Footer />
